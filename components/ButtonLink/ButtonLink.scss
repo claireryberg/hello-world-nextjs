@@ -1,0 +1,12 @@
+.btn-link {
+  background-color: #286f6c;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+
+  &:hover,
+  &focus {
+    background-color: #18403e;
+  }
+}
