@@ -1,0 +1,17 @@
+.footer {
+  height: 200px;
+  padding: 2rem;
+  background-color: #292736;
+  color: #ffffff;
+  text-align: center;
+
+  &__btn-link {
+    margin: 1rem;
+    display: inline-block;
+  }
+
+  &__copyright {
+    font-size: 0.75rem;
+    color: #646c7a;
+  }
+}
