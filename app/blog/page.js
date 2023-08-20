@@ -40,6 +40,7 @@ export default async function Blog() {
       <div>
         {posts.map(({ slug, title, description, date }) => (
           <Card
+            key={slug}
             slug={`blog/${slug}`}
             title={title}
             description={description}
