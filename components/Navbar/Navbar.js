@@ -1,16 +1,17 @@
+import { ButtonLink } from "../Button/Button";
 import "./Navbar.scss";
 
 export const Navbar = () => (
   <nav className="navbar">
     <ul className="navbar__links-list">
       <li>
-        {/* Add the link for "Home" here */}
+        <ButtonLink href="/">Home</ButtonLink>
       </li>
       <li>
-        {/* Add the link for "About" here */}
+        <ButtonLink href="/about">About</ButtonLink>
       </li>
       <li>
-        {/* Add the link for "Contact" here */}
+        <ButtonLink href="/contact">Contact</ButtonLink>
       </li>
     </ul>
   </nav>
