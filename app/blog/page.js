@@ -23,7 +23,7 @@ export async function getBlogData() {
 
     return posts;
   } catch (error) {
-    console.error(error);
+    console.error(`There was a problem loading the ${slug} post`);
 
     return {
       posts: [],
