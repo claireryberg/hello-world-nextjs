@@ -1,31 +1,31 @@
 .hero-image {
-  display: flex;
-  flex-direction: column;
-  background-image: url("https://raw.githubusercontent.com/claireryberg/hello-world-nextjs/main/public/images/morning-mountain-forest__desktop.jpeg");
-  height: 100vh;
-  align-self: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: bottom;
-  align-items: center;
-  justify-content: center;
-
-  text-align: center;
-
-  &__avatar {
-    border-radius: 100%;
-  }
-
-  &__text {
-    font-size: 1.4rem;
-    color: white;
-    margin-top: 2rem;
-    text-shadow: 1px 1px 4px black;
-  }
-
-  &__title {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-  }
+    display: flex;
+    flex-direction: column;
+    // background-image: url("https://raw.githubusercontent.com/claireryberg/hello-world-nextjs/main/public/images/morning-mountain-forest__desktop.jpeg");
+    height: 100vh;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    align-items: center;
+    justify-content: center;
+  
+    text-align: center;
+  
+    &__avatar {
+      border-radius: 100%;
+    }
+  
+    &__text {
+      font-size: 1.4rem;
+      color: white;
+      margin-top: 2rem;
+    //   text-shadow: 1px 1px 4px black;
+    }
+  
+    &__title {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
 }
