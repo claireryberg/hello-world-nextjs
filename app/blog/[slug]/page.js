@@ -15,7 +15,7 @@ export async function getPost(slug) {
       content,
     };
   } catch (error) {
-    console.error(error);
+    console.error(`There was an error with slug ${slug}`);
 
     return {};
   }
