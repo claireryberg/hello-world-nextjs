@@ -27,7 +27,7 @@ export default async function BlogPost({ params }) {
     <main className="blog-post">
       <h1 className="blog-post__title">{post.title}</h1>
       <p className="blog-post__date">{post.date}</p>
-      <div dangerouslySetInnerHTML={{ __html: md().render(post.content) }} />
+      {/* <div dangerouslySetInnerHTML={{ __html: md().render(post.content) }} /> */}
     </main>
   );
 }
