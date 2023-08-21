@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { DadJokeGenerator } from "../../components/DadJokeGenerator/DadJokeGenerator"
 
 import "./about.scss";
 
@@ -20,6 +21,7 @@ export default async function About() {
       <h1>About Me</h1>
       <p>My favorite Pokémon is Eevee</p>
       <Image src={pokemonImage} alt="Eevee" width="150" height="150" />
+      <DadJokeGenerator />
     </main>
   );
 }
